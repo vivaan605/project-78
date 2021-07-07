@@ -1,0 +1,25 @@
+<html> 
+  <head>
+    <title>Family</title>
+  </head> 
+  <body> 
+    <center> 
+      <h1>The Family Book Of:</h1>
+       <h3>Of the sweetest family ever</h3>
+        <p>That Is My Family.</p>
+         <img id="album" src="download.jfif">
+          <p id="Name">Family Book</p> 
+          <button class="button" onclick="nextslide()">Next</button>
+           <script>
+            var Members_Name=["ronaldo","messi"];
+             var Members=["ronaldo.jpg","Lionel_Messi_20180626.jpg"];
+              var i=0;
+               function nextslide() {
+                  document.getElementById("Name").innerHTML= Members_Name[i];
+                   document.getElementById("album").src= Members[i];
+                    i++;
+                     } 
+                     </script> 
+                     </center>
+                     </body>
+                      </html>
